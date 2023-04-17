@@ -36,3 +36,58 @@
     transform: rotate(360deg);
   }
 }
+
+.row{
+  --bs-gutter-x: 0rem;
+}
+
+.container{
+  width: 100%;
+}
+
+a{
+  text-decoration: none;
+  color: white
+}
+a:hover{
+  text-decoration: none;
+  color: white
+}
+
+#div1{
+  font-size: 30px;
+  width: 30%;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+#divImg{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+#div2{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+#seasons{
+  display:grid;
+  grid-template-columns: 100px 100px;
+}
+
+#parent{
+  background: 'ffffff';
+  width: 100px;
+  height: 100px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+#parent[data-isOpen="true"]{
+  background: 'black';
+  width:300px;
+  height:200px
+}
